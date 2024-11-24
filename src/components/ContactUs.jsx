@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactUs = () => {
     return (
-        <div className="contact-us p-8 text-button flex w-[100%] justify-evenly max-sm:block">
+        <div className="contact-us  p-8 text-button flex w-[99vw] justify-evenly max-sm:block">
             <div className='w-[50%] '>
             <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
             <p className="text-lg mb-6">If you have any questions, feel free to reach out to us!</p>
@@ -17,7 +17,7 @@ const ContactUs = () => {
                 </div>
                 <div className="form-group">
                     <label htmlFor="message" className="block text-lg mb-2">Message:</label>
-                    <textarea id="message" name="message" required className="w-[80%] p-2 border border-gray-300 rounded"></textarea>
+                    <textarea id="message" name="message" required className="w-[80%] p-2 border border-gray-300 rounded text-black"></textarea>
                 </div>
                 <button type="submit" className="bg-button text-button py-2 px-[36.5%] rounded-lg">Submit</button>
             </form>

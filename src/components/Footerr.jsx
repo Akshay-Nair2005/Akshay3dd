@@ -2,7 +2,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Footerr = () => {
     return (
-        <footer className="bg-[#383838] text-button py-8">
+        <footer className="bg-gray-800 text-button py-8">
             <div className="container mx-auto text-center">
                 <p className="text-lg mb-4">Your footer content here</p>
                 <div className="flex justify-center space-x-4">

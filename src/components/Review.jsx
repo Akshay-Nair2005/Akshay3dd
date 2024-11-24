@@ -110,10 +110,10 @@ const Review = () => {
 
     return (
         <div className="min-h-screen mt-4 w-full">
-            <h1 className="text-3xl text-button/90 text-center font-bold">Reviews</h1>
+            <h1 className="text-3xl text-button text-center font-bold">Reviews</h1>
             <div className=" mt-4 flex flex-wrap w-full justify-evenly">
                 {/* Add Review Section */}
-                <div className="w-[40%] mt-4 bg-[#121212] p-4">
+                <div className="w-[40%] mt-4  p-4">
                     <h2 className="text-xl font-bold text-button">Add Your Review</h2>
                     <form className="flex flex-col mt-4" onSubmit={submitReview}>
                         <label htmlFor="reviewTitle" className="text-button mb-1">
