@@ -68,7 +68,7 @@ pageGeometry.setAttribute(
 );
 
 const whiteColor = new Color("white");
-const emissiveColor = new Color("#F87871");
+const emissiveColor = new Color("orange");
 
 const pageMaterials = [
   new MeshStandardMaterial({

@@ -10,7 +10,7 @@
 }
 
 body {
-  background:  rgb(17 24 39);
+  background:  #021331;
   margin: 0;
 }
 
@@ -43,11 +43,11 @@ body {
 }
 
 .bg-button{
-  background-color: #D0605A;
+  background-color: #E94F2C;
   ;
 }
 .bg-button:hover{
-  background-color: #F87871;
+  background-color: #F77F64;
   ;
 }
 .text-color{

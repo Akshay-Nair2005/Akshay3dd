@@ -64,7 +64,7 @@ export const UI = () => {
                 className={`border-transparent hover:border-[#F87871] transition-all duration-300 px-4 py-3 rounded-full text-lg uppercase shrink-0 border ${
                   index === page
                     ? "bg-button text-white"
-                    : "bg-[#383838] text-white"
+                    : "bg-[#093D6F] text-white"
                 }`}
                 onClick={() => setPage(index)}
               >
@@ -72,10 +72,10 @@ export const UI = () => {
               </button>
             ))}
             <button
-              className={`border-transparent hover:border-[#F87871] transition-all duration-300 px-4 py-3 rounded-full text-lg uppercase shrink-0 border ${
+              className={`border-transparent border-1 hover:border-[#F87871] transition-all duration-300 px-4 py-3 rounded-full text-lg uppercase shrink-0 border ${
                 page === pages.length
                   ? "bg-button text-black"
-                  : "bg-[#383838] text-white"
+                  : "bg-[#093D6F] text-white"
               }`}
               onClick={() => setPage(pages.length)}
             >
