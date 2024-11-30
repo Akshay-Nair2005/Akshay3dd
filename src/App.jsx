@@ -7,13 +7,16 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } 
 import PageDescription from "./pages/PageDescription";
 
 const router = createBrowserRouter(
-  createRoutesFromElements(<Route path='/' element={<MainLayout />} >
+  createRoutesFromElements(
+  <>
+  <Route path='/' element={<MainLayout />} >
     <Route index element={<HomePage />} />
     <Route path='/novels' element={<AllNovels />} />
     <Route path='/desc/:bookId' element={<PageDescription />} />
-    <Route path='/text' element={<TextViewer />} />
     <Route path='*' element={<NotFoundPage />} />
   </Route>
+    <Route path='/text' element={<TextViewer />} />
+  </>
   )
 )
 

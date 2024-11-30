@@ -37,7 +37,7 @@ const BookViewer = () => {
   }
 
   return (
-    <div className={`flex h-screen ${darkMode ? "bg-gray-900 text-white" : "bg-white text-black"}`}>
+    <div className={`flex  ${darkMode ? "bg-[#021331] text-white" : "bg-white text-black"}`}>
       {/* Sidebar for Chapters */}
       <div className="w-1/4 border-r border-gray-300 dark:border-gray-700 p-4">
         <h2 className="text-lg font-bold mb-4">Chapters</h2>
