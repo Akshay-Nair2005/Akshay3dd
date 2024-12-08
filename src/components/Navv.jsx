@@ -5,7 +5,7 @@ const Navv = () => {
 
   return (
     <nav className="p-4">
-      <ul className="flex space-x-6 justify-end mt-3">
+      <ul className="flex space-x-6  justify-end mt-3">
         <li>
           <NavLink
             to="/"

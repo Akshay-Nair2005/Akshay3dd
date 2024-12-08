@@ -5,6 +5,8 @@ import AllNovels from "./pages/AllNovels";
 import TextViewer from "./pages/TextViewer";
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom";
 import PageDescription from "./pages/PageDescription";
+// import PdfView from "./components/PdfView";
+import PdfViewer from "./pages/PdfViewer";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,6 +18,7 @@ const router = createBrowserRouter(
     <Route path='*' element={<NotFoundPage />} />
   </Route>
     <Route path='/text' element={<TextViewer />} />
+    <Route path='/pdf' element={<PdfViewer />} />
   </>
   )
 )

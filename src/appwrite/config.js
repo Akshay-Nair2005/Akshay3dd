@@ -1,5 +1,8 @@
-import { Client } from 'appwrite';
+import { Client, Databases } from 'appwrite';
 
 const client = new Client();
-client.setProject('67458dd70030fdd03393');
+client.setEndpoint(import.meta.env.VITE_ENDPOINT)
+client.setProject(import.meta.env.VITE_PROJECT_ID);
 
+const db = new Databases(client);
+export {client,db}; 

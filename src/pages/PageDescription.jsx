@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import novels from '../novels.json';
 import '../assets/css/page.css'
 import Review from '../components/Review';
+import { Link } from 'react-router-dom';
 
 const PageDescription = () => {
     const { bookId } = useParams();  // Fetch the bookId from the URL params
@@ -36,9 +37,11 @@ const PageDescription = () => {
 
                     {/* Action Buttons */}
                     <div className="flex space-x-4 mt-6">
-                        <button className="btn rounded-full">
+                        <Link 
+                        to={'/pdf'}
+                        className="btn rounded-full">
                             Read
-                        </button>
+                        </Link>
                         <button className="btn rounded-full">
                             Save
                         </button>
